@@ -56,7 +56,9 @@ li {
 
 p {
     margin-bottom: 10px;
-	font-size: 12px;
+	font-size: 14px;
+	font-style: regular;
+	font-weight: 400;
 }
 
 /* Define styles for the sidebar */
