@@ -1,0 +1,104 @@
+@font-face {
+   font-family: JosefinSans;
+   src: url('Josefine_Sans/JosefineSans-VariableFont_wght.ttf') format('ttf'),
+        url('Josefine_Sans/static/JosefineSans-Regular.ttf') format('ttf');
+   font-style: normal;
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: JosefinSans;
+   src: url('Josefine_Sans/JosefineSans-Italic-VariableFont_wght.ttf') format('ttf'),
+        url('Josefine_Sans/static/JosefineSans-Italic.ttf') format('ttf');
+   font-style: italic;
+   font-weight: 400;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'JosefinSans', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #3498db;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Define styles for the sidebar */
+#sidebar {
+    height: 100vh; /* 100% of the viewport height */
+    width: 20%;
+    float: left;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#content {
+    height: 100vh; /* 100% of the viewport height */
+    width: 80%;
+    float: right;
+    padding: 0px;
+    box-sizing: border-box;
+	background-color: #fff;
+	color: #333;
+}
+
+#content iframe {
+	height: 100%;
+	width: 100%;
+	border: none;
+	background-color: #fff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Add a simple hover effect to links */
+a {
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2c3e50;
+}
