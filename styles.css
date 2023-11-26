@@ -26,29 +26,20 @@ body {
 	display: flex;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 h1 {
-	font-size: 45px;
+	font-size: 44px;
 	font-style: normal;
 	font-weight: 400;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
 h2 {
-	font-size: 35px;
+	font-size: 36px;
 	font-style: normal;
 	font-weight: 400;
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 24px;
 	font-weight: 600;
 	margin-top: 30px;
 	margin-bottom: 10px;
@@ -58,13 +49,13 @@ h4 {
 	margin-top: 20px;
 	margin-bottom: 0px;
 	font-size: 18px;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 h5 {
 	font-size: 16px;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -94,9 +85,8 @@ li {
 p {
 	margin-top: 10px;
     margin-bottom: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
-	font-weight: 400;
 	text-align: left;
 }
 
@@ -119,6 +109,7 @@ hr {
 	padding: 0px;
     box-sizing: border-box;
 	font-size: 18px;
+	font-weight: 400;
 }
 
 #sidebar hr {
@@ -133,9 +124,10 @@ hr {
 	height: 3000px; 
     width: 65%;
     float: left;
-    padding: 50px;
+    padding: 60px;
     box-sizing: border-box;
 	color: black;
+	font-weight: 300;
 }
 
 #content hr {
