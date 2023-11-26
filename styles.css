@@ -101,7 +101,7 @@ hr {
 
 /* Define styles for the sidebar */
 #sidebar {
-    height: 3000px;
+    height: 2000px;
     width: 398px;
     float: left;
     background-color: #0066cc;
@@ -121,7 +121,7 @@ hr {
 }
 
 #content {
-	height: 3000px; 
+	height: 2000px; 
     width: 65%;
     float: left;
     padding: 60px;
