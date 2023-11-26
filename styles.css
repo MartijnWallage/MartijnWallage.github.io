@@ -53,14 +53,27 @@ h3 {
 }
 
 h4 {
-	font-variant: small-caps;	
+	margin-top: 30px;
+	margin-bottom: 0px;
+	font-weight: bolder;
+}
+
+h5 {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	margin: 0;
+}
+
+.date {
+	float: right;
+	font-style: italic;
 }
 
 ul {
     list-style-type: none;
     margin-bottom: 30px;
     padding: 0;
-	font-size: 18px;
 }
 
 li {
@@ -68,29 +81,40 @@ li {
 }
 
 p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 	font-size: 16px;
-	font-style: regular;
+	font-style: normal;
 	font-weight: 400;
 	text-align: justify;
+}
+
+hr {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	margin-left: 0px;
 }
 
 /* Define styles for the sidebar */
 #sidebar {
     height: 3000px;
-    width: 35%;
+    width: 400px;
     float: left;
     background-color: #0066cc;
     color: #ffffff;
-    padding: 50px;
+	padding: 0px;
     box-sizing: border-box;
+	font-size: 18px;
 }
 
 #sidebar hr {
 	width: 80px;
 	height: 5px;
-	margin: 25px;
+	border: 0px;
 	background-color: #ffffff;
+}
+
+#sidebar_txt {
+	padding: 50px;
 }
 
 #content {
@@ -105,13 +129,13 @@ p {
 #content hr {
 	width: 80px;
 	height: 5px;
-	margin: 25px;
 	background-color: #0066cc;
 }
 
 /* Add a simple hover effect to links */
 a {
-    color: #3498db;
+	color: inherit;
+	text-decoration: none;
     transition: color 0.3s ease;
 }
 
