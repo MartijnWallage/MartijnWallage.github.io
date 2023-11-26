@@ -32,9 +32,9 @@ header {
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 45px;
 	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 section {
@@ -42,20 +42,23 @@ section {
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 35px;
 	font-style: normal;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 h3 {
 	font-size: 25px;
-	font-weight: 500;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 h4 {
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 0px;
-	font-weight: bolder;
+	font-size: 18px;
+	font-weight: 600;
 }
 
 h5 {
@@ -71,24 +74,36 @@ h5 {
 }
 
 ul {
-    list-style-type: none;
     margin-bottom: 30px;
-    padding: 0;
+}
+
+.disc_list {
+	list-style-type: disc;
+	margin-left: 17px;
+}
+
+.simple_list {
+	list-style-type: none;
 }
 
 li {
-    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p {
+	margin-top: 10px;
     margin-bottom: 10px;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	text-align: justify;
+	text-align: left;
 }
 
 hr {
+	width: 60px;
+	height: 4px;
+	border: 0px;
 	margin-top: 50px;
 	margin-bottom: 25px;
 	margin-left: 0px;
@@ -97,7 +112,7 @@ hr {
 /* Define styles for the sidebar */
 #sidebar {
     height: 3000px;
-    width: 400px;
+    width: 398px;
     float: left;
     background-color: #0066cc;
     color: #ffffff;
@@ -107,9 +122,6 @@ hr {
 }
 
 #sidebar hr {
-	width: 80px;
-	height: 5px;
-	border: 0px;
 	background-color: #ffffff;
 }
 
@@ -127,8 +139,6 @@ hr {
 }
 
 #content hr {
-	width: 80px;
-	height: 5px;
 	background-color: #0066cc;
 }
 
