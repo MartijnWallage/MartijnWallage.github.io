@@ -56,14 +56,14 @@ h3 {
 }
 
 h4 {
-	margin-top: 20px;
+	margin-top: 21px;
 	margin-bottom: 0px;
 	font-size: 18px;
 	font-weight: 550;
 }
 
 h5 {
-	font-size: 16px;
+	font-size: 18px;
 	font-style: normal;
 	letter-spacing: 0.05em;
 	font-weight: 400;
@@ -86,11 +86,6 @@ ul {
 
 .simple_list {
 	list-style-type: none;
-}
-
-li {
-    margin-top: 14px;
-    margin-bottom: 14px;
 }
 
 p {
@@ -127,6 +122,11 @@ hr {
 	background-color: #ffffff;
 }
 
+#sidebar li {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
 #sidebar_txt {
 	padding: 60px;
 }
@@ -139,6 +139,11 @@ hr {
     box-sizing: border-box;
 	color: black;
 	font-weight: 300;
+}
+
+#content li {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 #content hr {
