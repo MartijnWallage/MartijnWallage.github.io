@@ -22,9 +22,8 @@ body {
 }
 
 .container {
-    max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+	display: flex;
 }
 
 header {
@@ -33,7 +32,9 @@ header {
 }
 
 h1 {
-
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 500;
 }
 
 section {
@@ -41,13 +42,25 @@ section {
 }
 
 h2 {
+    font-family: 'JosefinSans', sans-serif;
+}
 
+.subheader {
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 300;
+}
+
+.small {
+	font-size: 30px;
+	font-variant: small-caps;
 }
 
 ul {
     list-style-type: circle;
-
+    margin-bottom: 30px;
     padding: 0;
+	font-size: 18px;
 }
 
 li {
@@ -55,43 +68,40 @@ li {
 }
 
 p {
-    margin-bottom: 10px;
-	font-size: 14px;
+    margin-bottom: 30px;
+	font-size: 16px;
 	font-style: regular;
 	font-weight: 400;
+	text-align: justify;
 }
 
 /* Define styles for the sidebar */
 #sidebar {
-    height: 100vh; /* 100% of the viewport height */
-    width: 30%;
+    height: 3000px; /* 100% of the viewport height */
+    width: 35%;
     float: left;
     background-color: #3399ff;
     color: #ffffff;
-    padding: 20px;
+    padding: 50px;
     box-sizing: border-box;
 }
 
 #content {
-    height: 100vh; /* 100% of the viewport height */
-    width: 70%;
-    float: right;
-    padding: 20px;
+	height: 3000px; /* 100% of the viewport height */
+    width: 65%;
+    float: left;
+    padding: 50px;
     box-sizing: border-box;
 	background-color: #ffffff;
 	color: black;
 }
 
-#content iframe {
-	height: 100%;
-	width: 100%;
-	border: none;
-	background-color: #3399ff;
-	color: #fff;
-	margin: 0;
-	padding: 0;
+hr {
+	width: 80px;
+	height: 5px;
+	margin: 25px;
+	background: #3399ff;
 }
-
 
 /* Add a simple hover effect to links */
 a {
