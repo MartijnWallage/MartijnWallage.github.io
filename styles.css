@@ -1,12 +1,12 @@
 @font-face {
-   font-family: JosefinSans;
-   src: url(Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+   font-family: 'JosefinSans';
+   src: url('Josefin_Sans/JosefinSans-VariableFont_wght.ttf');
    font-style: normal;
 }
 
 @font-face {
-   font-family: JosefinSans;
-   src: url(Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf);
+   font-family: 'JosefinSans';
+   src: url('Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf');
    font-style: italic;
 }
 
@@ -17,7 +17,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    font-family: JosefinSans, sans-serif;
+    font-family: 'JosefinSans', sans-serif;
     line-height: 1.6;
 }
 
