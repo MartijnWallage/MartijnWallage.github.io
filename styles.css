@@ -33,7 +33,7 @@ header {
 }
 
 h1 {
-    color: #3498db;
+
 }
 
 section {
@@ -41,11 +41,12 @@ section {
 }
 
 h2 {
-    color: #333;
+
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: circle;
+
     padding: 0;
 }
 
@@ -55,35 +56,36 @@ li {
 
 p {
     margin-bottom: 10px;
+	font-size: 12px;
 }
 
 /* Define styles for the sidebar */
 #sidebar {
     height: 100vh; /* 100% of the viewport height */
-    width: 20%;
+    width: 30%;
     float: left;
-    background-color: #3498db;
-    color: #fff;
+    background-color: #3399ff;
+    color: #ffffff;
     padding: 20px;
     box-sizing: border-box;
 }
 
 #content {
     height: 100vh; /* 100% of the viewport height */
-    width: 80%;
+    width: 70%;
     float: right;
-    padding: 0px;
+    padding: 20px;
     box-sizing: border-box;
-	background-color: #fff;
-	color: #333;
+	background-color: #ffffff;
+	color: black;
 }
 
 #content iframe {
 	height: 100%;
 	width: 100%;
 	border: none;
-	background-color: #fff;
-	color: #333;
+	background-color: #3399ff;
+	color: #fff;
 	margin: 0;
 	padding: 0;
 }
