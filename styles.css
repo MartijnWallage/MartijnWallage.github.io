@@ -33,7 +33,7 @@ h1 {
 	font-size: 44px;
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.05em;
 	line-height: 1.4;
 }
 
@@ -51,20 +51,20 @@ h2 {
 h3 {
 	font-size: 24px;
 	font-weight: 600;
-	letter-spacing: 0.1em;
-	margin-top: 30px;
+	letter-spacing: 0.05em;
+	margin-top: 31px;
 	margin-bottom: 10px;
 }
 
 h4 {
 	margin-top: 26px;
 	margin-bottom: 0px;
-	font-size: 18px;
+	font-size: 19px;
 	font-weight: 600;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 17px;
 	font-style: normal;
 	letter-spacing: 0.05em;
 	font-weight: 400;
@@ -74,6 +74,7 @@ h5 {
 .date {
 	float: right;
 	font-style: italic;
+	font-weight: 400;
 }
 
 ul {
@@ -109,7 +110,7 @@ hr {
 
 /* Define styles for the sidebar */
 #sidebar {
-    height: 2000px;
+    height: 2050px;
     width: 398px;
     float: left;
     background-color: #0066cc;
@@ -134,7 +135,7 @@ hr {
 }
 
 #content {
-	height: 2000px; 
+	height: 2050px; 
     width: 65%;
     float: left;
     padding: 60px;
