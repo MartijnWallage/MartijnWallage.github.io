@@ -42,18 +42,18 @@ section {
 }
 
 h2 {
-    font-family: 'JosefinSans', sans-serif;
-}
-
-.subheader {
 	font-size: 40px;
 	font-style: normal;
 	font-weight: 300;
 }
 
-.small {
-	font-size: 30px;
-	font-variant: small-caps;
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+h4 {
+	font-variant: small-caps;	
 }
 
 ul {
@@ -80,7 +80,7 @@ p {
     height: 3000px; /* 100% of the viewport height */
     width: 35%;
     float: left;
-    background-color: #3399ff;
+    background-color: #0066cc;
     color: #ffffff;
     padding: 50px;
     box-sizing: border-box;
@@ -92,7 +92,6 @@ p {
     float: left;
     padding: 50px;
     box-sizing: border-box;
-	background-color: #ffffff;
 	color: black;
 }
 
@@ -100,7 +99,14 @@ hr {
 	width: 80px;
 	height: 5px;
 	margin: 25px;
-	background: #3399ff;
+}
+
+.content hr {
+	background-color: #0066cc;
+}
+
+.sidebar hr {
+	background-color: #ffffff;
 }
 
 /* Add a simple hover effect to links */
