@@ -4,55 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1023px)" href="narrow_screen.css">
+    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="wide_screen.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-	<div id="container">
-    <!-- Include your Markdown content here -->
-    	<div id="sidebar">
-   			<img src="IMG_0414.jpg"
-     		alt="Martijn Wallage"
-	 		width=398px;
-	 		height=394px;
-     		style="float: left; padding: 0px; margin-bottom: 65px;" />
-
-			<div id="sidebar_txt">
-				<hr>
-				<h3>Contact</h3>
-				<ul class="simple_list">
-					<li><i class="material-icons" style="font-size:18px; margin-right:10px">mail</i>martijnwallage@gmail.com</li>
-					<li><i class="fa fa-linkedin-square" style="font-size:18px; margin-left:2px; margin-right:10px"></i><a href="https://linkedin.com/in/martijnwallage/">linkedin.com/in/martijnwallage</a></li>
-					<li><i class="fa fa-github" style="font-size:18px; margin-left:2px; margin-right:10px"></i><a href="https://github.com/MartijnWallage">github.com/MartijnWallage</a></li>
-					<li><span class="material-symbols-outlined" style="font-size: 18px; margin-right:8px">call</span>017683172847</li>
-					<li><span class="material-symbols-outlined" style="font-size: 18px; margin-right:8px">home</span>Schnellerstr. 36, 12439 Berlin</li>
-				</ul>
- 
-				<hr>
-  
-				<h3>Skills</h3>
-				<ul class="disc_list">
-					<li> C, C++, Java, Python</li>
-					<li> HTML, CSS</li>
-					<li> Git, GitHub</li>
-					<li> VS Code, Vim, Bash</li>
-					<li> Analytic Thinking, Problem Solving, Communication</li>
-				</ul>
-				
-				<hr>
-
- 				<h3>Languages</h3>
- 				<ul class="simple_list">
-	 				<li><strong>English</strong> - Native level</li>
-					<li><strong>German</strong> - Advanced</li>
-					<li><strong>Dutch</strong> - Native</li>
-				</ul> 
-    		</div>
-		</div>
-    <div id="content">
+	<div class="container">
+   
+    <div class="flex-item" id="content">
 		
 		<h1>Martijn Wallage</h1>
 		<h2>Junior Software Developer C</h2>
@@ -120,6 +82,40 @@
 		<p><i class="fa fa-github" style="font-size:24px; margin-right:10px"></i><a href="https://github.com/MartijnWallage/42_philosophers" target=_blank>https://github.com/MartijnWallage/42_philosophers</a></p>
 
 	</div>
+	<div class="flex-item" id="sidebar">
+   			<img class="image" src="IMG_0414.jpg" alt="Martijn Wallage"/>
+			<div id="sidebar_txt">
+				<hr>
+				<h3>Contact</h3>
+				<ul class="simple_list">
+					<li><i class="material-icons" style="font-size:18px; margin-right:10px">mail</i>martijnwallage@gmail.com</li>
+					<li><i class="fa fa-linkedin-square" style="font-size:18px; margin-left:2px; margin-right:10px"></i><a href="https://linkedin.com/in/martijnwallage/">linkedin.com/in/martijnwallage</a></li>
+					<li><i class="fa fa-github" style="font-size:18px; margin-left:2px; margin-right:10px"></i><a href="https://github.com/MartijnWallage">github.com/MartijnWallage</a></li>
+					<li><span class="material-symbols-outlined" style="font-size: 18px; margin-right:8px">call</span>017683172847</li>
+					<li><span class="material-symbols-outlined" style="font-size: 18px; margin-right:8px">home</span>Schnellerstr. 36, 12439 Berlin</li>
+				</ul>
+ 
+				<hr>
+  
+				<h3>Skills</h3>
+				<ul class="disc_list">
+					<li> C, C++, Java, Python</li>
+					<li> HTML, CSS</li>
+					<li> Git, GitHub</li>
+					<li> VS Code, Vim, Bash</li>
+					<li> Analytic Thinking, Problem Solving, Communication</li>
+				</ul>
+				
+				<hr>
+
+ 				<h3>Languages</h3>
+ 				<ul class="simple_list">
+	 				<li><strong>English</strong> - Native level</li>
+					<li><strong>German</strong> - Advanced</li>
+					<li><strong>Dutch</strong> - Native</li>
+				</ul> 
+    		</div>
+		</div>
 </div>
 </body>
 </html>

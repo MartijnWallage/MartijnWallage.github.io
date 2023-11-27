@@ -24,6 +24,69 @@ body {
 .container {
     margin: 0 auto;
 	display: flex;
+	flex-direction: row;
+}
+
+.flex-item {
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+#content {
+	height: 2100px; 
+    width: 65%;
+    float: left;
+    padding: 60px;
+    box-sizing: border-box;
+	color: black;
+}
+
+#content li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+#content hr {
+	background-color: #0066cc;
+}
+
+/* Define styles for the sidebar */
+#sidebar {
+    height: 2100px;
+    width: 398px;
+    float: left;
+    background-color: #0066cc;
+    color: #ffffff;
+	padding: 0px;
+    box-sizing: border-box;
+	font-size: 18px;
+	font-weight: 400;
+	order: -1;
+}
+
+#sidebar hr {
+	background-color: #ffffff;
+}
+
+#sidebar li {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+#sidebar_txt {
+	padding: 60px;
+}
+
+.image {
+	 width: 398px;
+	 height: 394px;
+	 block-size: auto;
+	 object-position: top-center;
+     float: left; 
+	 padding: 0px;
+	 margin-bottom: 65px;
 }
 
 h1 {
@@ -106,52 +169,6 @@ hr {
 	margin-top: 50px;
 	margin-bottom: 25px;
 	margin-left: 0px;
-}
-
-/* Define styles for the sidebar */
-#sidebar {
-    height: 2100px;
-    width: 398px;
-    float: left;
-    background-color: #0066cc;
-    color: #ffffff;
-	padding: 0px;
-    box-sizing: border-box;
-	font-size: 18px;
-	font-weight: 400;
-}
-
-#sidebar hr {
-	background-color: #ffffff;
-}
-
-#sidebar li {
-	margin-top: 14px;
-	margin-bottom: 14px;
-}
-
-#sidebar_txt {
-	padding: 60px;
-}
-
-#content {
-	height: 2100px; 
-    width: 65%;
-    float: left;
-    padding: 60px;
-    box-sizing: border-box;
-	color: black;
-}
-
-#content li {
-    margin-top: 8px;
-    margin-bottom: 8px;
-	font-weight: 300;
-	font-size: 18px;
-}
-
-#content hr {
-	background-color: #0066cc;
 }
 
 /* Add a simple hover effect to links */
