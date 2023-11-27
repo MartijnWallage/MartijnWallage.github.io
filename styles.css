@@ -50,7 +50,7 @@ body {
 /* Define styles for the sidebar */
 #sidebar {
     background-color: #0066cc;
-    color: #ffffff;
+    color: #fff;
 	padding: 0px;
 	margin: 0px;
     box-sizing: border-box;
@@ -155,8 +155,12 @@ a {
     transition: color 0.3s ease;
 }
 
-a:hover {
-    color: #2c3e50;
+#content a:hover {
+	color: #0066cc;
+	}
+	
+#sidebar a:hover {
+    color: black;
 }
 
 @media (max-width: 1023px) {
@@ -182,7 +186,7 @@ a:hover {
     width: 100%;
 	height: 100%;
 	margin: 0;
-}
+	}
 
 	#sidebar_txt {
 	padding-top: 0; /* was 60px */
