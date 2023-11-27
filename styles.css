@@ -163,7 +163,7 @@ a {
     color: black;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 811px) {
 
 	body {
 	font-size: 16px;
@@ -201,7 +201,7 @@ a {
 	}
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 812px) {
 	
 	body {
 	font-size: 18px;
@@ -220,7 +220,8 @@ a {
 	}
 
 	#sidebar_txt {
-	padding: 15%; /* was 60px */
+	padding: 10%; /* was 60px */
+	margin: 5%; /* was 0 */
 	}
 
 	#content {
