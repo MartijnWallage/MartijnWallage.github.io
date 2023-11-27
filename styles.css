@@ -175,7 +175,7 @@ a:hover {
 	}
 	
 	#content {
-    padding: 4%; /* was 60px; */
+    padding: 5%; /* was 60px; */
     }
 	
 	#sidebar {
@@ -186,9 +186,9 @@ a:hover {
 
 	#sidebar_txt {
 	padding-top: 0; /* was 60px */
-	padding-left: 4%; /* was 60px */
-	padding-right: 4%; /* was 60px */
-	padding-bottom: 4%; /* was 60px */
+	padding-left: 5%; /* was 60px */
+	padding-right: 5%; /* was 60px */
+	padding-bottom: 5%; /* was 60px */
 	margin: 0;
 	}
 
